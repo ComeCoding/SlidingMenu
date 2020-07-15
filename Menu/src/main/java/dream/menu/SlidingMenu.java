@@ -171,6 +171,7 @@ public class SlidingMenu extends LinearLayout {
                         mSlidingMenu.remove(this);
                     }
                     isScrolled = false;
+                    return true;
                 }
                 break;
         }
